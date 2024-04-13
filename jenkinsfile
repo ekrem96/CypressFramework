@@ -16,6 +16,9 @@ pipeline {
 					try{
 						sh 'docker images rm cypress-runner-image'
 					}
+					catch(err){
+						echo err
+					}
 				}
 			}
 		}

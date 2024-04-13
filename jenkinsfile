@@ -14,7 +14,7 @@ pipeline {
 				echo 'remove docker images'
 				script{
 					try{
-						sh 'docker images rm cypress-runner-image'
+						sh 'docker image rm cypress-runner-image'
 					}
 					catch(err){
 						echo err

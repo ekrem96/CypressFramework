@@ -6,6 +6,7 @@ module.exports = defineConfig({
     specPattern: 'cypress/testing/tests/*.js',
     testIsolation: false,
     defaultCommandTimeout: 6000,
+    chromeWebSecurity: false,
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
     },

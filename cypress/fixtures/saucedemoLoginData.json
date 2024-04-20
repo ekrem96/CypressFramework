@@ -1,0 +1,6 @@
+{
+	"correctUserName": "standard_user",
+	"incorrectUserName": "htknbr",
+	"correctPassword": "secret_sauce",
+	"incorrectPassword":"htknbr"
+}

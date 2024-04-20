@@ -8,4 +8,4 @@ COPY ./cypress ./cypress
 
 RUN npm install
 
-ENTRYPOINT [ "npx", "cypress", "run" ]
+#ENTRYPOINT [ "npx", "cypress", "run" ]
